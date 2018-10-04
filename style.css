@@ -1,0 +1,43 @@
+h1 {
+	text-align: center;
+	margin-top: 140px;
+	color: lightblue;
+}
+
+h6 {
+	text-align: center;
+	margin-top: 70px;
+}
+
+
+#inputArea {
+	margin-top: 50px;
+	margin-left: 45px;
+}
+
+#inputArea input {
+	border-color: lightblue;
+	width: 100px;
+	border-radius: 15px;
+	padding-left: 10px;
+}
+
+#inputArea p {
+	display: inline-block;
+	font-size: 20px;
+}
+
+
+
+#operationAre {
+margin-top: 20px;
+}
+
+#operationAre input {
+	width: 40px;
+}
+
+#numberArea input {
+	margin-top: 10px;
+	width: 40px;
+}
