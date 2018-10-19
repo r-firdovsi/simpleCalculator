@@ -1,7 +1,7 @@
-
 let buttOns;
-let inPut1;
-let inPut2;
+
+let inPut1 = document.getElementById("input1");
+let inPut2 = document.getElementById("input2");
 let inputVal1;
 let inputVal2;
 
@@ -16,6 +16,8 @@ let bolme = document.getElementById("btun13");
 
 let showOperation = document.getElementById("showoperation");
 let resultOp = document.getElementById("result");
+
+setInterval(check,1000);
 
 
 function change(numberId) {
@@ -53,13 +55,15 @@ function change(numberId) {
 	};
 };
 
+function check() {
+	if (inPut2.value !== "" && inPut2.value !== "0") {
+		document.getElementById('beraber').disabled = false;
+	}
+}
+
 function elavEt(numberId,num)  {	
 	
 buttOns = document.getElementById("btun" + numberId);
-inPut1 = document.getElementById("input1");
-inPut2 = document.getElementById("input2");
-
-	
 
 	if (topla.name == "topla") {
 		inputVal2 = inPut2.value;
@@ -123,6 +127,7 @@ let integerb;
 		inPut2.value = "";
 
 	}
+	document.getElementById('beraber').disabled = true;
 };
 
 function clearIng() {

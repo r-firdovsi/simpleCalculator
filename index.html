@@ -15,7 +15,7 @@
 			<div class="col-md-12 text-center">
 				<input type="text" name="" id="input1">
 				<p id="showoperation" class="btn"></p>
-				<input type="text" name="" id="input2">
+				<input type="text" name="" id="input2" onmouseout="check()">
 				<p class="btn">=</p>
 				<p id="result"></p>
 			</div>
@@ -61,7 +61,7 @@
 				<input type="button" class="btn btn-info" value="8" id="btun8" onclick="elavEt(8, value)">
 				<input type="button" class="btn btn-info" value="9" id="btun9" onclick="elavEt(9, value)">
 				<input type="button" class="btn btn-primary" value="C" onclick="clearIng()">
-				<input type="button" class="btn btn-primary" value="=" onclick="operation()">
+				<input type="button" class="btn btn-primary" value="=" onclick="operation()" id="beraber" disabled="">
 					
 					</div>
 		</div>
