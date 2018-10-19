@@ -17,7 +17,7 @@ let bolme = document.getElementById("btun13");
 let showOperation = document.getElementById("showoperation");
 let resultOp = document.getElementById("result");
 
-setInterval(check,1000);
+setInterval(check,100);
 
 
 function change(numberId) {
